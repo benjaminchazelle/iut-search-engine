@@ -1,14 +1,14 @@
-dependencies:
-  vue: 3.0.11
 devDependencies:
   '@vitejs/plugin-vue': 1.2.2
   '@vue/compiler-sfc': 3.0.11
   vite: 2.2.4
 packages:
   /@babel/helper-validator-identifier/7.14.0:
+    dev: true
     resolution:
       integrity: sha512-V3ts7zMSu5lfiwWDVWzRDGIN+lnCEUdaXgtVHJgLb1rGaA6jMrtB9EmE7L18foXJIE8Un/A/h6NJfGQp/e1J4A==
   /@babel/parser/7.14.1:
+    dev: true
     engines:
       node: '>=6.0.0'
     hasBin: true
@@ -18,6 +18,7 @@ packages:
     dependencies:
       '@babel/helper-validator-identifier': 7.14.0
       to-fast-properties: 2.0.0
+    dev: true
     resolution:
       integrity: sha512-S13Qe85fzLs3gYRUnrpyeIrBJIMYv33qSTg1qoBwiG6nPKwUWAD9odSzWhEedpwOIzSEI6gbdQIWEMiCI42iBA==
   /@vitejs/plugin-vue/1.2.2:
@@ -35,12 +36,14 @@ packages:
       '@vue/shared': 3.0.11
       estree-walker: 2.0.2
       source-map: 0.6.1
+    dev: true
     resolution:
       integrity: sha512-6sFj6TBac1y2cWCvYCA8YzHJEbsVkX7zdRs/3yK/n1ilvRqcn983XvpBbnN3v4mZ1UiQycTvOiajJmOgN9EVgw==
   /@vue/compiler-dom/3.0.11:
     dependencies:
       '@vue/compiler-core': 3.0.11
       '@vue/shared': 3.0.11
+    dev: true
     resolution:
       integrity: sha512-+3xB50uGeY5Fv9eMKVJs2WSRULfgwaTJsy23OIltKgMrynnIj8hTYY2UL97HCoz78aDw1VDXdrBQ4qepWjnQcw==
   /@vue/compiler-sfc/3.0.11:
@@ -73,28 +76,8 @@ packages:
     dev: true
     resolution:
       integrity: sha512-66yUGI8SGOpNvOcrQybRIhl2M03PJ+OrDPm78i7tvVln86MHTKhM3ERbALK26F7tXl0RkjX4sZpucCpiKs3MnA==
-  /@vue/reactivity/3.0.11:
-    dependencies:
-      '@vue/shared': 3.0.11
-    dev: false
-    resolution:
-      integrity: sha512-SKM3YKxtXHBPMf7yufXeBhCZ4XZDKP9/iXeQSC8bBO3ivBuzAi4aZi0bNoeE2IF2iGfP/AHEt1OU4ARj4ao/Xw==
-  /@vue/runtime-core/3.0.11:
-    dependencies:
-      '@vue/reactivity': 3.0.11
-      '@vue/shared': 3.0.11
-    dev: false
-    resolution:
-      integrity: sha512-87XPNwHfz9JkmOlayBeCCfMh9PT2NBnv795DSbi//C/RaAnc/bGZgECjmkD7oXJ526BZbgk9QZBPdFT8KMxkAg==
-  /@vue/runtime-dom/3.0.11:
-    dependencies:
-      '@vue/runtime-core': 3.0.11
-      '@vue/shared': 3.0.11
-      csstype: 2.6.17
-    dev: false
-    resolution:
-      integrity: sha512-jm3FVQESY3y2hKZ2wlkcmFDDyqaPyU3p1IdAX92zTNeCH7I8zZ37PtlE1b9NlCtzV53WjB4TZAYh9yDCMIEumA==
   /@vue/shared/3.0.11:
+    dev: true
     resolution:
       integrity: sha512-b+zB8A2so8eCE0JsxjL24J7vdGl8rzPQ09hZNhystm+KqSbKcAej1A+Hbva1rCMmTTqA+hFnUSDc5kouEo0JzA==
   /big.js/5.2.2:
@@ -124,10 +107,6 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==
-  /csstype/2.6.17:
-    dev: false
-    resolution:
-      integrity: sha512-u1wmTI1jJGzCJzWndZo8mk4wnPTZd1eOIYTYvuEyOQGfmDl3TrabCCfKnOC86FZwW/9djqTl933UF/cS425i9A==
   /emojis-list/3.0.0:
     dev: true
     engines:
@@ -141,6 +120,7 @@ packages:
     resolution:
       integrity: sha512-VtUf6aQ89VTmMLKrWHYG50uByMF4JQlVysb8dmg6cOgW8JnFCipmz7p+HNBl+RR3LLCuBxFGVauAe2wfnF9bLg==
   /estree-walker/2.0.2:
+    dev: true
     resolution:
       integrity: sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==
   /fsevents/2.3.2:
@@ -355,6 +335,7 @@ packages:
     resolution:
       integrity: sha512-rqBjgq9hQfW0vRmz+0S062ORRNJXvwRpzxhFXORvar/maZqY6za3rgQ/p1Glg+j1hnc1GtYyQCPiAei95uTElg==
   /source-map/0.6.1:
+    dev: true
     engines:
       node: '>=0.10.0'
     resolution:
@@ -368,6 +349,7 @@ packages:
     resolution:
       integrity: sha1-6Kr8CsGFW0Zmkp7X3RJ1311sgRs=
   /to-fast-properties/2.0.0:
+    dev: true
     engines:
       node: '>=4'
     resolution:
@@ -390,14 +372,6 @@ packages:
       fsevents: 2.3.2
     resolution:
       integrity: sha512-vnIwSNci+phFMp6krhy+FbYzKL0R67Sdt9mVZ96S27AewrApSJjTqncJcalk8sf60BgcbW4+1C6DFIWkxquO9g==
-  /vue/3.0.11:
-    dependencies:
-      '@vue/compiler-dom': 3.0.11
-      '@vue/runtime-dom': 3.0.11
-      '@vue/shared': 3.0.11
-    dev: false
-    resolution:
-      integrity: sha512-3/eUi4InQz8MPzruHYSTQPxtM3LdZ1/S/BvaU021zBnZi0laRUyH6pfuE4wtUeLvI8wmUNwj5wrZFvbHUXL9dw==
   /yallist/3.1.1:
     dev: true
     resolution:
@@ -409,4 +383,3 @@ specifiers:
   '@vitejs/plugin-vue': ^1.1.5
   '@vue/compiler-sfc': ^3.0.5
   vite: ^2.1.3
-  vue: ^3.0.5
