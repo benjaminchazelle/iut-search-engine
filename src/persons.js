@@ -1,4 +1,4 @@
-// Ne toucher pas à ce fichier ;)
+// Ne touchez pas ce fichier ;)
 
 export default [
   {
